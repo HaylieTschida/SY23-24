@@ -3,6 +3,7 @@
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         Me.Close()
+<<<<<<< HEAD
     End Sub
 
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
@@ -20,5 +21,11 @@
             Dim infile As New IO.StreamReader("Out.txt")
             TextBox1.Text = infile.ReadToEnd()
         End If
+=======
+    End Sub
+
+    Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
+        TextBox1.Clear()
+>>>>>>> main
     End Sub
 End Class

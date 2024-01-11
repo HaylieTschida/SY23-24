@@ -27,9 +27,13 @@ Partial Class Form1
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CloseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+<<<<<<< HEAD
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+=======
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+>>>>>>> main
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,7 +49,11 @@ Partial Class Form1
         '
         'FileToolStripMenuItem
         '
+<<<<<<< HEAD
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.CloseToolStripMenuItem, Me.ExitToolStripMenuItem, Me.SaveToolStripMenuItem, Me.OpenToolStripMenuItem})
+=======
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewToolStripMenuItem, Me.CloseToolStripMenuItem, Me.ExitToolStripMenuItem})
+>>>>>>> main
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.FileToolStripMenuItem.Text = "File"
@@ -68,12 +76,15 @@ Partial Class Form1
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
+<<<<<<< HEAD
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
         Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
+=======
+>>>>>>> main
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(190, 113)
@@ -81,12 +92,15 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(365, 218)
         Me.TextBox1.TabIndex = 1
+<<<<<<< HEAD
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
         Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.OpenToolStripMenuItem.Text = "Open"
+=======
+>>>>>>> main
         '
         'Form1
         '
@@ -111,6 +125,9 @@ Partial Class Form1
     Friend WithEvents CloseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TextBox1 As TextBox
+<<<<<<< HEAD
     Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents OpenToolStripMenuItem As ToolStripMenuItem
+=======
+>>>>>>> main
 End Class
