@@ -37,6 +37,16 @@ Partial Class Form1
         Me.DimesPictureBox = New System.Windows.Forms.PictureBox()
         Me.DollarPictureBox = New System.Windows.Forms.PictureBox()
         Me.NickelPictureBox = New System.Windows.Forms.PictureBox()
+        Me.ProductControl1 = New Vendingmachine.ProductControl()
+        Me.ProductControl2 = New Vendingmachine.ProductControl()
+        Me.ProductControl3 = New Vendingmachine.ProductControl()
+        Me.ProductControl4 = New Vendingmachine.ProductControl()
+        Me.ProductControl5 = New Vendingmachine.ProductControl()
+        Me.ProductControl6 = New Vendingmachine.ProductControl()
+        Me.ProductControl7 = New Vendingmachine.ProductControl()
+        Me.ProductControl8 = New Vendingmachine.ProductControl()
+        Me.ProductControl9 = New Vendingmachine.ProductControl()
+        Me.ProductControl10 = New Vendingmachine.ProductControl()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -126,7 +136,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(327, 150)
+        Me.Label1.Location = New System.Drawing.Point(662, 72)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(48, 16)
         Me.Label1.TabIndex = 8
@@ -144,9 +154,9 @@ Partial Class Form1
         'Quarterpicturebox
         '
         Me.Quarterpicturebox.Image = CType(resources.GetObject("Quarterpicturebox.Image"), System.Drawing.Image)
-        Me.Quarterpicturebox.Location = New System.Drawing.Point(421, 109)
+        Me.Quarterpicturebox.Location = New System.Drawing.Point(744, 0)
         Me.Quarterpicturebox.Name = "Quarterpicturebox"
-        Me.Quarterpicturebox.Size = New System.Drawing.Size(167, 131)
+        Me.Quarterpicturebox.Size = New System.Drawing.Size(44, 76)
         Me.Quarterpicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Quarterpicturebox.TabIndex = 10
         Me.Quarterpicturebox.TabStop = False
@@ -155,9 +165,9 @@ Partial Class Form1
         'DimesPictureBox
         '
         Me.DimesPictureBox.Image = CType(resources.GetObject("DimesPictureBox.Image"), System.Drawing.Image)
-        Me.DimesPictureBox.Location = New System.Drawing.Point(421, 109)
+        Me.DimesPictureBox.Location = New System.Drawing.Point(755, 103)
         Me.DimesPictureBox.Name = "DimesPictureBox"
-        Me.DimesPictureBox.Size = New System.Drawing.Size(178, 131)
+        Me.DimesPictureBox.Size = New System.Drawing.Size(33, 63)
         Me.DimesPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.DimesPictureBox.TabIndex = 11
         Me.DimesPictureBox.TabStop = False
@@ -166,9 +176,9 @@ Partial Class Form1
         'DollarPictureBox
         '
         Me.DollarPictureBox.Image = CType(resources.GetObject("DollarPictureBox.Image"), System.Drawing.Image)
-        Me.DollarPictureBox.Location = New System.Drawing.Point(431, 109)
+        Me.DollarPictureBox.Location = New System.Drawing.Point(737, 172)
         Me.DollarPictureBox.Name = "DollarPictureBox"
-        Me.DollarPictureBox.Size = New System.Drawing.Size(157, 125)
+        Me.DollarPictureBox.Size = New System.Drawing.Size(51, 26)
         Me.DollarPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.DollarPictureBox.TabIndex = 12
         Me.DollarPictureBox.TabStop = False
@@ -177,19 +187,149 @@ Partial Class Form1
         'NickelPictureBox
         '
         Me.NickelPictureBox.Image = CType(resources.GetObject("NickelPictureBox.Image"), System.Drawing.Image)
-        Me.NickelPictureBox.Location = New System.Drawing.Point(111, 115)
+        Me.NickelPictureBox.Location = New System.Drawing.Point(744, 213)
         Me.NickelPictureBox.Name = "NickelPictureBox"
-        Me.NickelPictureBox.Size = New System.Drawing.Size(179, 125)
+        Me.NickelPictureBox.Size = New System.Drawing.Size(54, 79)
         Me.NickelPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.NickelPictureBox.TabIndex = 13
         Me.NickelPictureBox.TabStop = False
         Me.NickelPictureBox.Visible = False
+        '
+        'ProductControl1
+        '
+        Me.ProductControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl1.Location = New System.Drawing.Point(-2, 12)
+        Me.ProductControl1.Name = "ProductControl1"
+        Me.ProductControl1.Productcount = 0
+        Me.ProductControl1.ProductID = Nothing
+        Me.ProductControl1.ProductImage = CType(resources.GetObject("ProductControl1.ProductImage"), System.Drawing.Image)
+        Me.ProductControl1.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl1.Size = New System.Drawing.Size(117, 135)
+        Me.ProductControl1.TabIndex = 14
+        '
+        'ProductControl2
+        '
+        Me.ProductControl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl2.Location = New System.Drawing.Point(131, 21)
+        Me.ProductControl2.Name = "ProductControl2"
+        Me.ProductControl2.Productcount = 0
+        Me.ProductControl2.ProductID = Nothing
+        Me.ProductControl2.ProductImage = CType(resources.GetObject("ProductControl2.ProductImage"), System.Drawing.Image)
+        Me.ProductControl2.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl2.Size = New System.Drawing.Size(114, 115)
+        Me.ProductControl2.TabIndex = 15
+        '
+        'ProductControl3
+        '
+        Me.ProductControl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl3.Location = New System.Drawing.Point(251, 20)
+        Me.ProductControl3.Name = "ProductControl3"
+        Me.ProductControl3.Productcount = 0
+        Me.ProductControl3.ProductID = Nothing
+        Me.ProductControl3.ProductImage = CType(resources.GetObject("ProductControl3.ProductImage"), System.Drawing.Image)
+        Me.ProductControl3.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl3.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl3.TabIndex = 16
+        '
+        'ProductControl4
+        '
+        Me.ProductControl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl4.Location = New System.Drawing.Point(388, 21)
+        Me.ProductControl4.Name = "ProductControl4"
+        Me.ProductControl4.Productcount = 0
+        Me.ProductControl4.ProductID = Nothing
+        Me.ProductControl4.ProductImage = CType(resources.GetObject("ProductControl4.ProductImage"), System.Drawing.Image)
+        Me.ProductControl4.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl4.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl4.TabIndex = 17
+        '
+        'ProductControl5
+        '
+        Me.ProductControl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl5.Location = New System.Drawing.Point(525, 21)
+        Me.ProductControl5.Name = "ProductControl5"
+        Me.ProductControl5.Productcount = 0
+        Me.ProductControl5.ProductID = Nothing
+        Me.ProductControl5.ProductImage = CType(resources.GetObject("ProductControl5.ProductImage"), System.Drawing.Image)
+        Me.ProductControl5.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl5.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl5.TabIndex = 18
+        '
+        'ProductControl6
+        '
+        Me.ProductControl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl6.Location = New System.Drawing.Point(12, 153)
+        Me.ProductControl6.Name = "ProductControl6"
+        Me.ProductControl6.Productcount = 0
+        Me.ProductControl6.ProductID = Nothing
+        Me.ProductControl6.ProductImage = CType(resources.GetObject("ProductControl6.ProductImage"), System.Drawing.Image)
+        Me.ProductControl6.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl6.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl6.TabIndex = 19
+        '
+        'ProductControl7
+        '
+        Me.ProductControl7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl7.Location = New System.Drawing.Point(149, 150)
+        Me.ProductControl7.Name = "ProductControl7"
+        Me.ProductControl7.Productcount = 0
+        Me.ProductControl7.ProductID = Nothing
+        Me.ProductControl7.ProductImage = CType(resources.GetObject("ProductControl7.ProductImage"), System.Drawing.Image)
+        Me.ProductControl7.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl7.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl7.TabIndex = 20
+        '
+        'ProductControl8
+        '
+        Me.ProductControl8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl8.Location = New System.Drawing.Point(286, 153)
+        Me.ProductControl8.Name = "ProductControl8"
+        Me.ProductControl8.Productcount = 0
+        Me.ProductControl8.ProductID = Nothing
+        Me.ProductControl8.ProductImage = CType(resources.GetObject("ProductControl8.ProductImage"), System.Drawing.Image)
+        Me.ProductControl8.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl8.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl8.TabIndex = 21
+        '
+        'ProductControl9
+        '
+        Me.ProductControl9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl9.Location = New System.Drawing.Point(404, 150)
+        Me.ProductControl9.Name = "ProductControl9"
+        Me.ProductControl9.Productcount = 0
+        Me.ProductControl9.ProductID = Nothing
+        Me.ProductControl9.ProductImage = CType(resources.GetObject("ProductControl9.ProductImage"), System.Drawing.Image)
+        Me.ProductControl9.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl9.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl9.TabIndex = 22
+        '
+        'ProductControl10
+        '
+        Me.ProductControl10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.ProductControl10.Location = New System.Drawing.Point(541, 153)
+        Me.ProductControl10.Name = "ProductControl10"
+        Me.ProductControl10.Productcount = 0
+        Me.ProductControl10.ProductID = Nothing
+        Me.ProductControl10.ProductImage = CType(resources.GetObject("ProductControl10.ProductImage"), System.Drawing.Image)
+        Me.ProductControl10.ProductPrice = New Decimal(New Integer() {0, 0, 0, 0})
+        Me.ProductControl10.Size = New System.Drawing.Size(131, 126)
+        Me.ProductControl10.TabIndex = 23
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ProductControl10)
+        Me.Controls.Add(Me.ProductControl9)
+        Me.Controls.Add(Me.ProductControl8)
+        Me.Controls.Add(Me.ProductControl7)
+        Me.Controls.Add(Me.ProductControl6)
+        Me.Controls.Add(Me.ProductControl5)
+        Me.Controls.Add(Me.ProductControl4)
+        Me.Controls.Add(Me.ProductControl3)
+        Me.Controls.Add(Me.ProductControl2)
+        Me.Controls.Add(Me.ProductControl1)
         Me.Controls.Add(Me.NickelPictureBox)
         Me.Controls.Add(Me.DollarPictureBox)
         Me.Controls.Add(Me.DimesPictureBox)
@@ -233,4 +373,14 @@ Partial Class Form1
     Friend WithEvents DimesPictureBox As PictureBox
     Friend WithEvents DollarPictureBox As PictureBox
     Friend WithEvents NickelPictureBox As PictureBox
+    Friend WithEvents ProductControl1 As ProductControl
+    Friend WithEvents ProductControl2 As ProductControl
+    Friend WithEvents ProductControl3 As ProductControl
+    Friend WithEvents ProductControl4 As ProductControl
+    Friend WithEvents ProductControl5 As ProductControl
+    Friend WithEvents ProductControl6 As ProductControl
+    Friend WithEvents ProductControl7 As ProductControl
+    Friend WithEvents ProductControl8 As ProductControl
+    Friend WithEvents ProductControl9 As ProductControl
+    Friend WithEvents ProductControl10 As ProductControl
 End Class
