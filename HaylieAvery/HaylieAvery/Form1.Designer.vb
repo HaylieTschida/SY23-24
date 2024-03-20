@@ -27,14 +27,10 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.TotalLabel = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxWall1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxWall1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -81,47 +77,29 @@ Partial Class Form1
         Me.TotalLabel.Size = New System.Drawing.Size(0, 16)
         Me.TotalLabel.TabIndex = 4
         '
-        'PictureBox4
+        'PictureBoxWall1
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(471, 12)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox4.TabIndex = 8
-        Me.PictureBox4.TabStop = False
+        Me.PictureBoxWall1.Location = New System.Drawing.Point(16, 12)
+        Me.PictureBoxWall1.Name = "PictureBoxWall1"
+        Me.PictureBoxWall1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBoxWall1.TabIndex = 9
+        Me.PictureBoxWall1.TabStop = False
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(702, 237)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(170, 12)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(316, 12)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox3.TabIndex = 11
-        Me.PictureBox3.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1504, 525)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.PictureBoxWall1)
         Me.Controls.Add(Me.TotalLabel)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -129,10 +107,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxWall1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -143,8 +119,6 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents TotalLabel As Label
-    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBoxWall1 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
 End Class
