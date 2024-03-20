@@ -119,5 +119,53 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floor4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window5.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
