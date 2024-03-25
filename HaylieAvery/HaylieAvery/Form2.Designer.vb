@@ -70,7 +70,7 @@ Partial Class Form2
         Me.doorsB.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.doorsB.Location = New System.Drawing.Point(785, 415)
         Me.doorsB.Name = "doorsB"
-        Me.doorsB.Size = New System.Drawing.Size(75, 31)
+        Me.doorsB.Size = New System.Drawing.Size(89, 31)
         Me.doorsB.TabIndex = 59
         Me.doorsB.Text = "Doors"
         Me.doorsB.UseVisualStyleBackColor = True
@@ -80,7 +80,7 @@ Partial Class Form2
         Me.Button2.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(536, 415)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 31)
+        Me.Button2.Size = New System.Drawing.Size(84, 31)
         Me.Button2.TabIndex = 58
         Me.Button2.Text = "Floors"
         Me.Button2.UseVisualStyleBackColor = True
@@ -182,15 +182,16 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(799, 387)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(48, 16)
+        Me.Label1.Size = New System.Drawing.Size(75, 23)
         Me.Label1.TabIndex = 75
         Me.Label1.Text = "Label1"
         '
         'totalTB
         '
-        Me.totalTB.Location = New System.Drawing.Point(860, 294)
+        Me.totalTB.Location = New System.Drawing.Point(892, 209)
         Me.totalTB.Name = "totalTB"
         Me.totalTB.Size = New System.Drawing.Size(100, 22)
         Me.totalTB.TabIndex = 76
@@ -199,11 +200,11 @@ Partial Class Form2
         '
         Me.total.AutoSize = True
         Me.total.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total.Location = New System.Drawing.Point(860, 259)
+        Me.total.Location = New System.Drawing.Point(900, 179)
         Me.total.Name = "total"
-        Me.total.Size = New System.Drawing.Size(75, 23)
+        Me.total.Size = New System.Drawing.Size(55, 23)
         Me.total.TabIndex = 77
-        Me.total.Text = "Label2"
+        Me.total.Text = "total"
         '
         'Form2
         '
