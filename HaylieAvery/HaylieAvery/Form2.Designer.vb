@@ -49,7 +49,6 @@ Partial Class Form2
         '
         'windowsB
         '
-<<<<<<< Updated upstream
         Me.windowsB.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.windowsB.Location = New System.Drawing.Point(892, 415)
         Me.windowsB.Name = "windowsB"
@@ -57,13 +56,7 @@ Partial Class Form2
         Me.windowsB.TabIndex = 60
         Me.windowsB.Text = "Windows"
         Me.windowsB.UseVisualStyleBackColor = True
-=======
-        Me.TotalLabel.AutoSize = True
-        Me.TotalLabel.Location = New System.Drawing.Point(1443, 480)
-        Me.TotalLabel.Name = "TotalLabel"
-        Me.TotalLabel.Size = New System.Drawing.Size(0, 16)
-        Me.TotalLabel.TabIndex = 61
->>>>>>> Stashed changes
+
         '
         'doorsB
         '

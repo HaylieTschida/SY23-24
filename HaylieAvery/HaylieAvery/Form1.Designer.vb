@@ -22,20 +22,14 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-<<<<<<< Updated upstream
         Me.TotalLabel = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-<<<<<<< Updated upstream
         Me.Label1 = New System.Windows.Forms.Label()
-=======
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
         Me.SuspendLayout()
         '
         'Label1
@@ -68,48 +62,29 @@ Partial Class Form1
         Me.Button1.Text = "Click to see products!"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(192, 144)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(151, 55)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Click Here!"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
+
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< Updated upstream
         Me.ClientSize = New System.Drawing.Size(651, 396)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TotalLabel)
-=======
         Me.ClientSize = New System.Drawing.Size(1504, 525)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.Color.LightCoral
->>>>>>> Stashed changes
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-<<<<<<< Updated upstream
     Friend WithEvents TotalLabel As Label
     Friend WithEvents Button1 As Button
-<<<<<<< Updated upstream
-    Friend WithEvents Label1 As Label
-=======
 
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button1 As Button
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 End Class
