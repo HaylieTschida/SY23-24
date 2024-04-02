@@ -57,7 +57,7 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 58)
+        Me.Button2.Location = New System.Drawing.Point(12, 62)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(82, 31)
         Me.Button2.TabIndex = 58
@@ -78,7 +78,7 @@ Partial Class Form2
         '
         Me.TD.AutoSize = True
         Me.TD.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TD.Location = New System.Drawing.Point(107, 125)
+        Me.TD.Location = New System.Drawing.Point(128, 121)
         Me.TD.Name = "TD"
         Me.TD.Size = New System.Drawing.Size(22, 23)
         Me.TD.TabIndex = 75
@@ -86,7 +86,7 @@ Partial Class Form2
         '
         'totalTB
         '
-        Me.totalTB.Location = New System.Drawing.Point(892, 209)
+        Me.totalTB.Location = New System.Drawing.Point(873, 80)
         Me.totalTB.Name = "totalTB"
         Me.totalTB.Size = New System.Drawing.Size(100, 22)
         Me.totalTB.TabIndex = 76
@@ -95,7 +95,7 @@ Partial Class Form2
         '
         Me.total.AutoSize = True
         Me.total.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total.Location = New System.Drawing.Point(900, 180)
+        Me.total.Location = New System.Drawing.Point(888, 44)
         Me.total.Name = "total"
         Me.total.Size = New System.Drawing.Size(60, 23)
         Me.total.TabIndex = 77
@@ -115,7 +115,7 @@ Partial Class Form2
         '
         Me.TF.AutoSize = True
         Me.TF.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TF.Location = New System.Drawing.Point(107, 62)
+        Me.TF.Location = New System.Drawing.Point(128, 62)
         Me.TF.Name = "TF"
         Me.TF.Size = New System.Drawing.Size(22, 23)
         Me.TF.TabIndex = 79
@@ -125,7 +125,7 @@ Partial Class Form2
         '
         Me.TW.AutoSize = True
         Me.TW.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TW.Location = New System.Drawing.Point(107, 16)
+        Me.TW.Location = New System.Drawing.Point(128, 16)
         Me.TW.Name = "TW"
         Me.TW.Size = New System.Drawing.Size(22, 23)
         Me.TW.TabIndex = 80

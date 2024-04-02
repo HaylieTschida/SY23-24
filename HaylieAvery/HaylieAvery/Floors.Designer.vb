@@ -37,7 +37,7 @@ Partial Class Floors
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.HaylieAvery.My.Resources.Resources.floor1
-        Me.PictureBox10.Location = New System.Drawing.Point(290, 239)
+        Me.PictureBox10.Location = New System.Drawing.Point(290, 208)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(110, 106)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -47,7 +47,7 @@ Partial Class Floors
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.HaylieAvery.My.Resources.Resources.Floor2
-        Me.PictureBox9.Location = New System.Drawing.Point(418, 239)
+        Me.PictureBox9.Location = New System.Drawing.Point(462, 208)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(107, 106)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -57,7 +57,7 @@ Partial Class Floors
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.HaylieAvery.My.Resources.Resources.floor3
-        Me.PictureBox8.Location = New System.Drawing.Point(418, 105)
+        Me.PictureBox8.Location = New System.Drawing.Point(462, 44)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(107, 114)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -67,7 +67,7 @@ Partial Class Floors
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.HaylieAvery.My.Resources.Resources.Floor4
-        Me.PictureBox7.Location = New System.Drawing.Point(275, 125)
+        Me.PictureBox7.Location = New System.Drawing.Point(275, 44)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(125, 86)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -76,9 +76,10 @@ Partial Class Floors
         '
         'Fcount
         '
-        Me.Fcount.Location = New System.Drawing.Point(64, 93)
+        Me.Fcount.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Fcount.Location = New System.Drawing.Point(28, 44)
         Me.Fcount.Name = "Fcount"
-        Me.Fcount.Size = New System.Drawing.Size(120, 22)
+        Me.Fcount.Size = New System.Drawing.Size(120, 31)
         Me.Fcount.TabIndex = 78
         '
         'Floors

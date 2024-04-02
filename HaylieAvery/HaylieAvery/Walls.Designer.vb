@@ -36,15 +36,16 @@ Partial Class Walls
         '
         'Wcount
         '
-        Me.Wcount.Location = New System.Drawing.Point(73, 38)
+        Me.Wcount.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Wcount.Location = New System.Drawing.Point(12, 36)
         Me.Wcount.Name = "Wcount"
-        Me.Wcount.Size = New System.Drawing.Size(120, 22)
+        Me.Wcount.Size = New System.Drawing.Size(120, 31)
         Me.Wcount.TabIndex = 0
         '
         'PictureBoxWall1
         '
         Me.PictureBoxWall1.Image = Global.HaylieAvery.My.Resources.Resources.wall4
-        Me.PictureBoxWall1.Location = New System.Drawing.Point(259, 110)
+        Me.PictureBoxWall1.Location = New System.Drawing.Point(241, 36)
         Me.PictureBoxWall1.Name = "PictureBoxWall1"
         Me.PictureBoxWall1.Size = New System.Drawing.Size(113, 106)
         Me.PictureBoxWall1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -54,7 +55,7 @@ Partial Class Walls
         'PictureBoxWall2
         '
         Me.PictureBoxWall2.Image = Global.HaylieAvery.My.Resources.Resources.wall3
-        Me.PictureBoxWall2.Location = New System.Drawing.Point(433, 101)
+        Me.PictureBoxWall2.Location = New System.Drawing.Point(430, 36)
         Me.PictureBoxWall2.Name = "PictureBoxWall2"
         Me.PictureBoxWall2.Size = New System.Drawing.Size(93, 128)
         Me.PictureBoxWall2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -64,7 +65,7 @@ Partial Class Walls
         'PictureBoxWall4
         '
         Me.PictureBoxWall4.Image = Global.HaylieAvery.My.Resources.Resources.wall2
-        Me.PictureBoxWall4.Location = New System.Drawing.Point(390, 250)
+        Me.PictureBoxWall4.Location = New System.Drawing.Point(430, 217)
         Me.PictureBoxWall4.Name = "PictureBoxWall4"
         Me.PictureBoxWall4.Size = New System.Drawing.Size(159, 83)
         Me.PictureBoxWall4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -74,7 +75,7 @@ Partial Class Walls
         'PictureBoxWall3
         '
         Me.PictureBoxWall3.Image = Global.HaylieAvery.My.Resources.Resources.wall1
-        Me.PictureBoxWall3.Location = New System.Drawing.Point(252, 244)
+        Me.PictureBoxWall3.Location = New System.Drawing.Point(241, 204)
         Me.PictureBoxWall3.Name = "PictureBoxWall3"
         Me.PictureBoxWall3.Size = New System.Drawing.Size(120, 106)
         Me.PictureBoxWall3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
