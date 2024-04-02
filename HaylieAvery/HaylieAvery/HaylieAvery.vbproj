@@ -79,6 +79,12 @@
     <Compile Include="doors.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Floors.Designer.vb">
+      <DependentUpon>Floors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Floors.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Walls.Designer.vb">
+      <DependentUpon>Walls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Walls.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="windows.Designer.vb">
       <DependentUpon>windows.vb</DependentUpon>
     </Compile>
@@ -117,6 +129,9 @@
   <ItemGroup>
     <EmbeddedResource Include="doors.resx">
       <DependentUpon>doors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Floors.resx">
+      <DependentUpon>Floors.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -129,6 +144,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Walls.resx">
+      <DependentUpon>Walls.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="windows.resx">
       <DependentUpon>windows.vb</DependentUpon>

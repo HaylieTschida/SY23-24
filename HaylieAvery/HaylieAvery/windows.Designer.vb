@@ -27,10 +27,12 @@ Partial Class windows
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TotalLabel = New System.Windows.Forms.Label()
+        Me.Wincount = New System.Windows.Forms.NumericUpDown()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Wincount, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox15
@@ -66,7 +68,7 @@ Partial Class windows
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.HaylieAvery.My.Resources.Resources.window4
-        Me.PictureBox3.Location = New System.Drawing.Point(241, 224)
+        Me.PictureBox3.Location = New System.Drawing.Point(251, 235)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(100, 143)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -81,11 +83,19 @@ Partial Class windows
         Me.TotalLabel.Size = New System.Drawing.Size(0, 16)
         Me.TotalLabel.TabIndex = 78
         '
+        'Wincount
+        '
+        Me.Wincount.Location = New System.Drawing.Point(49, 49)
+        Me.Wincount.Name = "Wincount"
+        Me.Wincount.Size = New System.Drawing.Size(120, 22)
+        Me.Wincount.TabIndex = 83
+        '
         'windows
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Wincount)
         Me.Controls.Add(Me.PictureBox15)
         Me.Controls.Add(Me.PictureBox14)
         Me.Controls.Add(Me.PictureBox12)
@@ -97,6 +107,7 @@ Partial Class windows
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Wincount, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -107,4 +118,5 @@ Partial Class windows
     Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TotalLabel As Label
+    Friend WithEvents Wincount As NumericUpDown
 End Class

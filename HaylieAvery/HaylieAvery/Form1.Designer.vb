@@ -22,15 +22,30 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TotalLabel = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-
         Me.SuspendLayout()
+        '
+        'TotalLabel
+        '
+        Me.TotalLabel.Location = New System.Drawing.Point(0, 0)
+        Me.TotalLabel.Name = "TotalLabel"
+        Me.TotalLabel.Size = New System.Drawing.Size(100, 23)
+        Me.TotalLabel.TabIndex = 3
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(1137, 447)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(268, 47)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Click to see products!"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -52,25 +67,12 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1137, 447)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(268, 47)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Click to see products!"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(651, 396)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TotalLabel)
         Me.ClientSize = New System.Drawing.Size(1504, 525)
+        Me.Controls.Add(Me.TotalLabel)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
