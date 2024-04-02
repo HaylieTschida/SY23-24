@@ -28,6 +28,7 @@ Partial Class doors
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Dcount = New System.Windows.Forms.NumericUpDown()
+        Me.priceD = New System.Windows.Forms.Label()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -88,16 +89,27 @@ Partial Class doors
         'Dcount
         '
         Me.Dcount.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Dcount.Location = New System.Drawing.Point(25, 105)
+        Me.Dcount.Location = New System.Drawing.Point(25, 114)
         Me.Dcount.Name = "Dcount"
         Me.Dcount.Size = New System.Drawing.Size(120, 31)
         Me.Dcount.TabIndex = 76
+        '
+        'priceD
+        '
+        Me.priceD.AutoSize = True
+        Me.priceD.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.priceD.Location = New System.Drawing.Point(31, 158)
+        Me.priceD.Name = "priceD"
+        Me.priceD.Size = New System.Drawing.Size(75, 23)
+        Me.priceD.TabIndex = 77
+        Me.priceD.Text = "Label2"
         '
         'doors
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.priceD)
         Me.Controls.Add(Me.Dcount)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox6)
@@ -121,4 +133,5 @@ Partial Class doors
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Dcount As NumericUpDown
+    Friend WithEvents priceD As Label
 End Class

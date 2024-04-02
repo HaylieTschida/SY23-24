@@ -26,15 +26,18 @@ Partial Class Form2
         Me.doorsB = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TD = New System.Windows.Forms.Label()
         Me.totalTB = New System.Windows.Forms.TextBox()
         Me.total = New System.Windows.Forms.Label()
+        Me.TWIN = New System.Windows.Forms.Label()
+        Me.TF = New System.Windows.Forms.Label()
+        Me.TW = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'windowsB
         '
         Me.windowsB.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.windowsB.Location = New System.Drawing.Point(713, 415)
+        Me.windowsB.Location = New System.Drawing.Point(12, 172)
         Me.windowsB.Name = "windowsB"
         Me.windowsB.Size = New System.Drawing.Size(110, 31)
         Me.windowsB.TabIndex = 60
@@ -44,7 +47,7 @@ Partial Class Form2
         'doorsB
         '
         Me.doorsB.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.doorsB.Location = New System.Drawing.Point(528, 415)
+        Me.doorsB.Location = New System.Drawing.Point(12, 117)
         Me.doorsB.Name = "doorsB"
         Me.doorsB.Size = New System.Drawing.Size(89, 31)
         Me.doorsB.TabIndex = 59
@@ -54,9 +57,9 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(375, 415)
+        Me.Button2.Location = New System.Drawing.Point(12, 58)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(84, 31)
+        Me.Button2.Size = New System.Drawing.Size(82, 31)
         Me.Button2.TabIndex = 58
         Me.Button2.Text = "Floors"
         Me.Button2.UseVisualStyleBackColor = True
@@ -64,22 +67,22 @@ Partial Class Form2
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(179, 415)
+        Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 31)
         Me.Button1.TabIndex = 57
         Me.Button1.Text = "Walls"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label1
+        'TD
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(778, 206)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 23)
-        Me.Label1.TabIndex = 75
-        Me.Label1.Text = "Label1"
+        Me.TD.AutoSize = True
+        Me.TD.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TD.Location = New System.Drawing.Point(107, 125)
+        Me.TD.Name = "TD"
+        Me.TD.Size = New System.Drawing.Size(22, 23)
+        Me.TD.TabIndex = 75
+        Me.TD.Text = "#"
         '
         'totalTB
         '
@@ -94,18 +97,51 @@ Partial Class Form2
         Me.total.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.total.Location = New System.Drawing.Point(900, 180)
         Me.total.Name = "total"
-        Me.total.Size = New System.Drawing.Size(55, 23)
+        Me.total.Size = New System.Drawing.Size(60, 23)
         Me.total.TabIndex = 77
-        Me.total.Text = "total"
+        Me.total.Text = "Total"
+        '
+        'TWIN
+        '
+        Me.TWIN.AutoSize = True
+        Me.TWIN.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TWIN.Location = New System.Drawing.Point(128, 172)
+        Me.TWIN.Name = "TWIN"
+        Me.TWIN.Size = New System.Drawing.Size(22, 23)
+        Me.TWIN.TabIndex = 78
+        Me.TWIN.Text = "#"
+        '
+        'TF
+        '
+        Me.TF.AutoSize = True
+        Me.TF.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TF.Location = New System.Drawing.Point(107, 62)
+        Me.TF.Name = "TF"
+        Me.TF.Size = New System.Drawing.Size(22, 23)
+        Me.TF.TabIndex = 79
+        Me.TF.Text = "#"
+        '
+        'TW
+        '
+        Me.TW.AutoSize = True
+        Me.TW.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TW.Location = New System.Drawing.Point(107, 16)
+        Me.TW.Name = "TW"
+        Me.TW.Size = New System.Drawing.Size(22, 23)
+        Me.TW.TabIndex = 80
+        Me.TW.Text = "#"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1040, 512)
+        Me.Controls.Add(Me.TW)
+        Me.Controls.Add(Me.TF)
+        Me.Controls.Add(Me.TWIN)
         Me.Controls.Add(Me.total)
         Me.Controls.Add(Me.totalTB)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TD)
         Me.Controls.Add(Me.windowsB)
         Me.Controls.Add(Me.doorsB)
         Me.Controls.Add(Me.Button2)
@@ -120,7 +156,10 @@ Partial Class Form2
     Friend WithEvents doorsB As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents TD As Label
     Friend WithEvents totalTB As TextBox
     Friend WithEvents total As Label
+    Friend WithEvents TWIN As Label
+    Friend WithEvents TF As Label
+    Friend WithEvents TW As Label
 End Class

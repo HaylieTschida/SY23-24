@@ -7,6 +7,4 @@ Public Class Form1
         f2.ShowDialog()
         Me.Show()
     End Sub
-
-
 End Class

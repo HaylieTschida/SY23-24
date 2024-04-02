@@ -28,6 +28,7 @@ Partial Class windows
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TotalLabel = New System.Windows.Forms.Label()
         Me.Wincount = New System.Windows.Forms.NumericUpDown()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,16 +86,28 @@ Partial Class windows
         '
         'Wincount
         '
+        Me.Wincount.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Wincount.Location = New System.Drawing.Point(49, 49)
         Me.Wincount.Name = "Wincount"
-        Me.Wincount.Size = New System.Drawing.Size(120, 22)
+        Me.Wincount.Size = New System.Drawing.Size(120, 31)
         Me.Wincount.TabIndex = 83
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(65, 96)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 20)
+        Me.Label1.TabIndex = 84
+        Me.Label1.Text = "Label1"
         '
         'windows
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Wincount)
         Me.Controls.Add(Me.PictureBox15)
         Me.Controls.Add(Me.PictureBox14)
@@ -119,4 +132,5 @@ Partial Class windows
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TotalLabel As Label
     Friend WithEvents Wincount As NumericUpDown
+    Friend WithEvents Label1 As Label
 End Class
