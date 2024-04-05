@@ -28,7 +28,7 @@ Partial Class windows
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.TotalLabel = New System.Windows.Forms.Label()
         Me.Wincount = New System.Windows.Forms.NumericUpDown()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.pricewin = New System.Windows.Forms.Label()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -45,6 +45,7 @@ Partial Class windows
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox15.TabIndex = 82
         Me.PictureBox15.TabStop = False
+        Me.PictureBox15.Tag = "window"
         '
         'PictureBox14
         '
@@ -55,6 +56,7 @@ Partial Class windows
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox14.TabIndex = 81
         Me.PictureBox14.TabStop = False
+        Me.PictureBox14.Tag = "window"
         '
         'PictureBox12
         '
@@ -65,6 +67,7 @@ Partial Class windows
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox12.TabIndex = 80
         Me.PictureBox12.TabStop = False
+        Me.PictureBox12.Tag = "window"
         '
         'PictureBox3
         '
@@ -75,6 +78,7 @@ Partial Class windows
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 79
         Me.PictureBox3.TabStop = False
+        Me.PictureBox3.Tag = "window"
         '
         'TotalLabel
         '
@@ -83,6 +87,7 @@ Partial Class windows
         Me.TotalLabel.Name = "TotalLabel"
         Me.TotalLabel.Size = New System.Drawing.Size(0, 16)
         Me.TotalLabel.TabIndex = 78
+        Me.TotalLabel.Tag = "window"
         '
         'Wincount
         '
@@ -92,22 +97,22 @@ Partial Class windows
         Me.Wincount.Size = New System.Drawing.Size(120, 31)
         Me.Wincount.TabIndex = 83
         '
-        'Label1
+        'pricewin
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Lucida Fax", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(65, 96)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(67, 20)
-        Me.Label1.TabIndex = 84
-        Me.Label1.Text = "Label1"
+        Me.pricewin.AutoSize = True
+        Me.pricewin.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pricewin.Location = New System.Drawing.Point(54, 94)
+        Me.pricewin.Name = "pricewin"
+        Me.pricewin.Size = New System.Drawing.Size(59, 23)
+        Me.pricewin.TabIndex = 84
+        Me.pricewin.Text = "price"
         '
         'windows
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.pricewin)
         Me.Controls.Add(Me.Wincount)
         Me.Controls.Add(Me.PictureBox15)
         Me.Controls.Add(Me.PictureBox14)
@@ -132,5 +137,5 @@ Partial Class windows
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TotalLabel As Label
     Friend WithEvents Wincount As NumericUpDown
-    Friend WithEvents Label1 As Label
+    Friend WithEvents pricewin As Label
 End Class

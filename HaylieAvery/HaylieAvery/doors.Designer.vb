@@ -45,6 +45,7 @@ Partial Class doors
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 73
         Me.PictureBox6.TabStop = False
+        Me.PictureBox6.Tag = "door"
         '
         'PictureBox5
         '
@@ -55,6 +56,7 @@ Partial Class doors
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 72
         Me.PictureBox5.TabStop = False
+        Me.PictureBox5.Tag = "door"
         '
         'PictureBox4
         '
@@ -65,6 +67,7 @@ Partial Class doors
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 71
         Me.PictureBox4.TabStop = False
+        Me.PictureBox4.Tag = "door"
         '
         'PictureBox2
         '
@@ -75,6 +78,7 @@ Partial Class doors
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 70
         Me.PictureBox2.TabStop = False
+        Me.PictureBox2.Tag = "door"
         '
         'Label1
         '

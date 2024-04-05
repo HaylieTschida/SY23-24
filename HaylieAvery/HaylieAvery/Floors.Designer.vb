@@ -27,6 +27,7 @@ Partial Class Floors
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Fcount = New System.Windows.Forms.NumericUpDown()
+        Me.pricef = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,6 +44,7 @@ Partial Class Floors
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox10.TabIndex = 77
         Me.PictureBox10.TabStop = False
+        Me.PictureBox10.Tag = "floor"
         '
         'PictureBox9
         '
@@ -53,6 +55,7 @@ Partial Class Floors
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox9.TabIndex = 76
         Me.PictureBox9.TabStop = False
+        Me.PictureBox9.Tag = "floor"
         '
         'PictureBox8
         '
@@ -63,6 +66,7 @@ Partial Class Floors
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox8.TabIndex = 75
         Me.PictureBox8.TabStop = False
+        Me.PictureBox8.Tag = "floor"
         '
         'PictureBox7
         '
@@ -73,6 +77,7 @@ Partial Class Floors
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox7.TabIndex = 74
         Me.PictureBox7.TabStop = False
+        Me.PictureBox7.Tag = "floor"
         '
         'Fcount
         '
@@ -82,11 +87,22 @@ Partial Class Floors
         Me.Fcount.Size = New System.Drawing.Size(120, 31)
         Me.Fcount.TabIndex = 78
         '
+        'pricef
+        '
+        Me.pricef.AutoSize = True
+        Me.pricef.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pricef.Location = New System.Drawing.Point(24, 107)
+        Me.pricef.Name = "pricef"
+        Me.pricef.Size = New System.Drawing.Size(59, 23)
+        Me.pricef.TabIndex = 79
+        Me.pricef.Text = "price"
+        '
         'Floors
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.pricef)
         Me.Controls.Add(Me.Fcount)
         Me.Controls.Add(Me.PictureBox10)
         Me.Controls.Add(Me.PictureBox9)
@@ -100,6 +116,7 @@ Partial Class Floors
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Fcount, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -108,4 +125,5 @@ Partial Class Floors
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Fcount As NumericUpDown
+    Friend WithEvents pricef As Label
 End Class
