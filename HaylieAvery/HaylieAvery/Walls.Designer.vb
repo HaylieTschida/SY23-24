@@ -27,6 +27,7 @@ Partial Class Walls
         Me.PictureBoxWall2 = New System.Windows.Forms.PictureBox()
         Me.PictureBoxWall4 = New System.Windows.Forms.PictureBox()
         Me.PictureBoxWall3 = New System.Windows.Forms.PictureBox()
+        Me.pricew = New System.Windows.Forms.Label()
         CType(Me.Wcount, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxWall1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxWall2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,6 +52,7 @@ Partial Class Walls
         Me.PictureBoxWall1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBoxWall1.TabIndex = 78
         Me.PictureBoxWall1.TabStop = False
+        Me.PictureBoxWall1.Tag = "wall"
         '
         'PictureBoxWall2
         '
@@ -61,6 +63,7 @@ Partial Class Walls
         Me.PictureBoxWall2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBoxWall2.TabIndex = 77
         Me.PictureBoxWall2.TabStop = False
+        Me.PictureBoxWall2.Tag = "wall"
         '
         'PictureBoxWall4
         '
@@ -71,6 +74,7 @@ Partial Class Walls
         Me.PictureBoxWall4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBoxWall4.TabIndex = 76
         Me.PictureBoxWall4.TabStop = False
+        Me.PictureBoxWall4.Tag = "wall"
         '
         'PictureBoxWall3
         '
@@ -81,12 +85,24 @@ Partial Class Walls
         Me.PictureBoxWall3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBoxWall3.TabIndex = 75
         Me.PictureBoxWall3.TabStop = False
+        Me.PictureBoxWall3.Tag = "wall"
+        '
+        'pricew
+        '
+        Me.pricew.AutoSize = True
+        Me.pricew.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pricew.Location = New System.Drawing.Point(25, 84)
+        Me.pricew.Name = "pricew"
+        Me.pricew.Size = New System.Drawing.Size(59, 23)
+        Me.pricew.TabIndex = 79
+        Me.pricew.Text = "price"
         '
         'Walls
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.pricew)
         Me.Controls.Add(Me.PictureBoxWall1)
         Me.Controls.Add(Me.PictureBoxWall2)
         Me.Controls.Add(Me.PictureBoxWall4)
@@ -100,6 +116,7 @@ Partial Class Walls
         CType(Me.PictureBoxWall4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxWall3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -108,4 +125,5 @@ Partial Class Walls
     Friend WithEvents PictureBoxWall2 As PictureBox
     Friend WithEvents PictureBoxWall4 As PictureBox
     Friend WithEvents PictureBoxWall3 As PictureBox
+    Friend WithEvents pricew As Label
 End Class
